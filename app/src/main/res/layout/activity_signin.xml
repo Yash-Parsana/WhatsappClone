@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grayBackground"
+    android:gravity="center"
+    android:paddingHorizontal="25dp"
+    tools:context=".signin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_whatsapp_512"
+            android:layout_marginBottom="15dp"
+            />
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:padding="9dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Email/Phone"
+            android:background="@color/white"
+            />
+        <EditText
+            android:id="@+id/etpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:padding="9dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Password"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Register here"
+            android:padding="3sp"
+            />
+        <Button
+            android:id="@+id/signinbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_marginTop="10dp"
+            android:paddingVertical="15sp"
+            />
+
+        <TextView
+            android:id="@+id/signupwithphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up with Phone"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

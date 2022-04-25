@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "720419065654",
+    "project_id": "whatsapp-6e939",
+    "storage_bucket": "whatsapp-6e939.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720419065654:android:5570000174eab4e02cad97",
+        "android_client_info": {
+          "package_name": "com.parsanatech.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720419065654-70eitkc92hmnuohmvr04bp16u82uen9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBNHAukTo4w_2vzNiruS5tHMWPYbiiVjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720419065654-70eitkc92hmnuohmvr04bp16u82uen9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
